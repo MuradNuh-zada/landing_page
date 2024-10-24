@@ -1,0 +1,1221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F9F9F9;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 82.5rem;
+    margin: 0 auto;
+}
+
+/* TODO: HEADER START */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px;
+    border-bottom: .0625rem solid #E7E7E7;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+}
+
+header a strong {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 8px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    margin-inline: 2.5rem;
+}
+
+header nav ul li a {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000;
+    line-height: 21.0896px;
+    font-weight: 600;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+header nav ul li a:hover {
+    color: #71A894;
+}
+
+header .burger {
+    display: none;
+}
+
+/* TODO: HEADER END */
+
+
+
+/* TODO: ACCESS START */
+#access {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.75rem;
+    padding: 2.8125rem 0;
+}
+
+#access .access-info {
+    width: 48%;
+}
+
+#access .access-info h1 {
+    font-size: 4.375rem;
+    font-weight: 700;
+}
+
+#access .access-info p {
+    color: #66645E;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-block: 2.1875rem;
+}
+
+#access .access-info a {
+    font-size: 1.125rem;
+    font-weight: 700;
+    background-color: #71A894;
+    padding: 1.25rem 1.5rem;
+    color: #fff;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+#access .access-image {
+    width: 52%;
+}
+
+#access .access-image img {
+    width: 100%;
+}
+
+#access .access-info a:hover {
+    background-color: #5c8a79;
+}
+
+/* TODO: ACCESS END */
+
+/* TODO: REMAINING START */
+#remaining {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 2.5rem;
+}
+
+#remaining .remaining-title {
+    text-align: center;
+    width: 70%;
+}
+
+#remaining .remaining-title h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+}
+
+#remaining .remaining-title .remaining-first-paragraph {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+    color: #303031;
+    margin: 1.5rem 0 3rem;
+}
+
+#remaining .remaining-title .remaining-second-paragraph {
+    display: none;
+}
+
+#remaining .remaining-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.125rem;
+}
+
+#remaining .remaining-cards .remaining-card {
+    background-color: #FFFFFF;
+    width: 26.6875rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    padding: 4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 .125rem .5rem 0 #0000001A;
+    text-align: center;
+}
+
+#remaining .remaining-cards .remaining-card strong {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 1.5rem 0 1rem;
+}
+
+#remaining .remaining-cards .remaining-card p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+/* TODO: REMAINING END */
+
+/* TODO: ABOUT START */
+#about {
+    padding-block: 1.875rem;
+}
+
+/* TODO: ABOUT-CARD START */
+#about .about-cards .about-card {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 1.875rem;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+#about .about-cards .about-card .about-card-desc {
+    width: 50%;
+    padding: 1.875rem 1.875rem 1.875rem 0;
+}
+
+#about .about-cards .about-card .about-card-desc img {
+    display: block;
+    width: 5rem;
+}
+
+#about .about-cards .about-card .about-card-desc strong {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-block: 1.5rem;
+    display: inline-block;
+}
+
+#about .about-cards .about-card .about-card-desc p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: #303031;
+}
+
+#about .about-cards .about-card .about-card-members {
+    width: 40%;
+    border: .25rem solid #303031;
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+#about .about-cards .about-card .about-card-members strong {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+#about .about-cards .about-card .about-card-members .member {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-block: 1.5rem;
+}
+
+#about .about-cards .about-card .about-card-members .member .member-info i {
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-bottom: .3125rem;
+}
+
+#about .about-cards .about-card .about-card-members .member .member-info p {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #303031;
+}
+
+/* TODO: ABOUT-CARD END */
+
+
+/* TODO: ABOUT-INVESTOR START */
+#about .about-cards .about-investor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.875rem;
+}
+
+#about .about-cards .about-investor .investor-row {
+    border: .25rem solid #303031;
+    width: 40%;
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+#about .about-cards .about-investor .investor-row .investor {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#about .about-cards .about-investor .investor-row .investor .investor-name strong {
+    display: block;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+
+#about .about-cards .about-investor .investor-row .investor .investor-name i {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #303031;
+}
+
+#about .about-cards .about-investor .investor-row .investor-message {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin-block: 1.5rem 3rem;
+}
+
+#about .about-cards .about-investor .investor-row .investor-share-commit {
+    display: flex;
+}
+
+#about .about-cards .about-investor .investor-row .investor-share-commit .investor-commit,
+.investor-share {
+    width: 50%;
+}
+
+#about .about-cards .about-investor .investor-row .investor-share-commit .investor-commit p,
+.investor-share p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #66645E;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#about .about-cards .about-investor .investor-row .investor-share-commit .investor-commit span,
+.investor-share span {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    margin-block: .75rem 2rem;
+    display: inline-block;
+}
+
+#about .about-cards .about-investor .investor-row a {
+    display: block;
+    text-align: center;
+    background-color: #303031;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #FFFFFF;
+    padding: .75rem 1.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+#about .about-cards .about-investor .investor-desc {
+    width: 50%;
+}
+
+#about .about-cards .about-investor .investor-desc img {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    display: block;
+    width: 5rem;
+}
+
+#about .about-cards .about-investor .investor-desc strong {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 4rem;
+    margin-block: 1.5rem;
+    display: inline-block;
+}
+
+#about .about-cards .about-investor .investor-desc p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+/* TODO: ABOUT-INVESTOR END */
+
+
+/* TODO: ABOUT-CONTRIBUTORS START */
+
+#about .about-cards .about-contributors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 30px;
+}
+
+#about .about-cards .about-contributors .contributors-desc {
+    width: 60%;
+}
+
+#about .about-cards .about-contributors .contributors-desc img {
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#about .about-cards .about-contributors .contributors-desc strong {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 4rem;
+    display: inline-block;
+    margin-block: 1.5rem;
+}
+
+#about .about-cards .about-contributors .contributors-desc p {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+    color: #303031;
+}
+
+
+#about .about-cards .about-contributors .contributors {
+    display: flex;
+    flex-direction: column;
+    gap: .8125rem;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-title-box,
+.contributors-body-box .contributors-applicant,
+.applicant-box {
+    border: .25rem solid #303031;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 1.875rem;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-body-box {
+    display: flex;
+    justify-content: space-between;
+    gap: .75rem;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .contributors-applicant {
+    width: 70%;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-title-box .contributors-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-title-box .contributors-title strong {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+
+#about .about-cards .about-contributors .contributors .contributors-title-box .contributors-title a {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    background-color: #71A894;
+    text-transform: uppercase;
+    padding: .25rem .5rem;
+    color: #fff;
+    border-radius: 2.5rem;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    -ms-border-radius: 2.5rem;
+    -o-border-radius: 2.5rem;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-title-box p {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    width: 70%;
+}
+
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .contributors-applicant strong {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .contributors-applicant {
+    background-color: #F3F0EA;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .contributors-applicant .applicant {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-transform: capitalize;
+    margin-block: 1.5rem;
+    font-weight: 100;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .contributors-applicant .applicant img {
+    width: 2.5rem;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box .applicant-box-head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box .applicant-box-head strong {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    margin-block: 1rem .25rem;
+    text-transform: capitalize;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box .applicant-box-head img {
+    width: 4.5rem;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box .applicant-box-head p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: #66645E;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+#about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box a {
+    padding: .75rem 1.5rem;
+    background-color: #303031;
+    color: #fff;
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    text-align: center;
+}
+
+/* TODO: ABOUT-CONTRIBUTORS END */
+
+
+/* TODO: ABOUT ANIMATIONS START */
+#about .about-cards .about-card .about-card-members,
+#about .about-cards .about-investor .investor-row,
+#about .about-cards .about-contributors .contributors .contributors-title-box,
+.contributors-body-box .contributors-applicant,
+.applicant-box {
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+
+#about .about-cards .about-card .about-card-members:hover,
+#about .about-cards .about-investor .investor-row:hover,
+#about .about-cards .about-contributors .contributors .contributors-title-box:hover,
+.contributors-body-box .contributors-applicant:hover,
+.applicant-box:hover {
+    border: .25rem solid #71A894;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+/* TODO: ABOUT ANIMATIONS END */
+
+/* TODO: ABOUT END */
+
+
+/* TODO: HELPUS START */
+
+#helpus {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#helpus .helpus-title {
+    text-align: center;
+    width: 73%;
+}
+
+#helpus .helpus-title strong {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+#helpus .helpus-title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-block: 24px 48px;
+}
+
+#helpus .helpus-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+#helpus .helpus-cards .helpus-card {
+    border-radius: 16px;
+    padding: 24px;
+    width: 32%;
+    box-shadow: 0 2px 8px 0 #0000001A;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+#helpus .helpus-cards .helpus-card strong {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#helpus .helpus-cards .helpus-card p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #303031;
+    margin-block: 16px 24px;
+}
+
+#helpus .helpus-cards .helpus-card .helpus-history {
+    display: flex;
+    justify-content: space-between;
+}
+
+#helpus .helpus-cards .helpus-card .helpus-history a {
+    color: #fff;
+    padding: 4px 8px;
+    background-color: #71A894;
+    text-transform: uppercase;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+#helpus .helpus-cards .helpus-card .helpus-history i {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+}
+
+
+#helpus .helpus-link {
+    padding: 20px 24px;
+    background-color: #303031;
+    color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-block: 50px;
+}
+
+/* TODO: HELPUS END */
+
+#background {
+    height: 72px;
+    width: 100%;
+    background: url("./assets/images/background-img.png");
+}
+
+
+/* TODO: REQUEST START */
+#request {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 45px;
+}
+
+#request .request-desc strong {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 800;
+}
+
+#request .request-desc p {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-block: 24px 40px;
+}
+
+#request .request-desc a {
+    background-color: #71A894;
+    padding: 20px 24px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+/* TODO: REQUEST END */
+
+
+/* TODO: FOOTER START */
+footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer a {
+    color: #303031;
+}
+
+footer .logo {
+    font-size: 24px;
+    font-weight: 700;
+    margin-block: 40px;
+
+}
+
+footer ul {
+    display: flex;
+    gap: 40px;
+    margin-block: 40px;
+}
+
+footer ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+footer ul li a:hover {
+    color: #71A894;
+}
+
+/* TODO: FOOTER END */
+
+
+@media only screen and (max-width:992px) {
+
+    .container {
+        width: 70%;
+    }
+
+    /* TODO: RESPONSIVE HEADER START */
+    header a strong,
+    header nav ul {
+        display: none;
+    }
+
+    header .burger {
+        display: block;
+        width: 37px;
+    }
+
+    /* TODO: RESPONSIVE HEADER END */
+
+
+    /* TODO: RESPONSIVE ACCESS START */
+    #access {
+        flex-direction: column;
+    }
+
+    #access .access-image {
+        width: 120%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #access .access-info {
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+
+    #access .access-info h1 {
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    #access .access-info p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    /* TODO: RESPONSIVE ACCESS END */
+
+
+    /* TODO: RESPONSIVE REMAINING START */
+
+    #remaining .remaining-title {
+        width: 100%;
+    }
+
+    #remaining .remaining-title h2 {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+
+    #remaining .remaining-title .remaining-first-paragraph {
+        display: none;
+    }
+
+    #remaining .remaining-title .remaining-second-paragraph {
+        display: block;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 400;
+        margin-block: 24px 58px;
+        color: #66645E;
+    }
+
+    #remaining .remaining-cards {
+        justify-content: center;
+        gap: 49px;
+    }
+
+    #remaining .remaining-cards .remaining-card {
+        width: 319px;
+    }
+
+    /* TODO: RESPONSIVE REMAINING END */
+
+    /* TODO: RESPONSIVE ABOUT-CARDS START */
+    #about .about-cards .about-card {
+        flex-direction: column;
+    }
+
+    #about .about-cards .about-card .about-card-desc {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    #about .about-cards .about-card .about-card-desc img {
+        width: 104px;
+    }
+
+    #about .about-cards .about-card .about-card-desc strong {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+
+    #about .about-cards .about-card .about-card-members {
+        width: 100%;
+    }
+
+    #about .about-cards .about-card .about-card-members strong {
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    #about .about-cards .about-card .about-card-members .member img {
+        width: 60px;
+    }
+
+    #about .about-cards .about-card .about-card-members .member .member-info i {
+        font-size: 1rem;
+    }
+
+    #about .about-cards .about-card .about-card-members .member .member-info p {
+        font-size: 12px;
+    }
+
+
+
+    /* TODO: RESPONSIVE ABOUT-INVESTOR START */
+
+    #about .about-cards .about-investor {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #about .about-cards .about-investor .investor-row {
+        width: 100%;
+        order: 1;
+    }
+
+    #about .about-cards .about-investor .investor-row .investor {
+        flex-direction: column;
+    }
+
+    #about .about-cards .about-investor .investor-row .investor img {
+        width: 60px;
+    }
+
+    #about .about-cards .about-investor .investor-row .investor .investor-name strong {
+        font-size: 1rem;
+    }
+
+    #about .about-cards .about-investor .investor-row .investor .investor-name i {
+        font-size: 12px;
+    }
+
+    #about .about-cards .about-investor .investor-row .investor-message {
+        font-size: 12px;
+    }
+
+    #about .about-cards .about-investor .investor-row .investor-share-commit .investor-commit,
+    .investor-share {
+        width: 50%;
+    }
+
+    #about .about-cards .about-investor .investor-row .investor-share-commit .investor-commit p,
+    .investor-share p {
+        font-size: 12px;
+    }
+
+    #about .about-cards .about-investor .investor-row .investor-share-commit .investor-commit span,
+    .investor-share span {
+        font-size: 16px;
+    }
+
+    #about .about-cards .about-investor .investor-row a {
+        font-size: 1rem;
+    }
+
+
+    #about .about-cards .about-investor .investor-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #about .about-cards .about-investor .investor-desc strong {
+        font-size: 24px;
+        line-height: 2rem;
+        margin-block: 1rem;
+    }
+
+    #about .about-cards .about-investor .investor-desc p {
+        font-size: 1rem;
+    }
+
+    /* TODO: RESPONSIVE ABOUT-INVESTOR END  */
+
+
+    /* TODO: RESPONSIVE ABOUT-CONTRIBUTORS START  */
+    #about .about-cards .about-contributors {
+        flex-direction: column;
+    }
+
+    #about .about-cards .about-contributors .contributors-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    #about .about-cards .about-contributors .contributors-desc img {
+        width: 60px;
+    }
+
+    #about .about-cards .about-contributors .contributors-desc strong {
+        font-size: 24px;
+        line-height: 2rem;
+        margin-block: 8px;
+
+    }
+
+    #about .about-cards .about-contributors .contributors-desc p {
+        font-size: 1rem;
+        line-height: 1rem;
+        margin-block: 15px;
+    }
+
+
+    #about .about-cards .about-contributors .contributors {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .8125rem;
+    }
+
+    #about .about-cards .about-contributors .contributors .contributors-title-box .contributors-title {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #about .about-cards .about-contributors .contributors .contributors-title-box .contributors-title strong {
+        font-size: 16px;
+        line-height: 1rem;
+    }
+
+
+    #about .about-cards .about-contributors .contributors .contributors-title-box .contributors-title a {
+        font-size: 10px;
+        text-align: center;
+        width: 80px;
+    }
+
+    #about .about-cards .about-contributors .contributors .contributors-title-box p {
+        font-size: 10px;
+        margin-top: 10px;
+        line-height: 1rem;
+    }
+
+
+    #about .about-cards .about-contributors .contributors .contributors-body-box .contributors-applicant strong {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 2rem;
+    }
+
+    #about .about-cards .about-contributors .contributors .contributors-body-box .contributors-applicant {
+        width: 50%;
+    }
+
+    #about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box {
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #about .about-cards .about-contributors .contributors .contributors-body-box .contributors-applicant .applicant img {
+        width: 32px;
+    }
+
+    #about .about-cards .about-contributors .contributors .contributors-body-box .contributors-applicant .applicant i {
+        font-size: 14px;
+    }
+
+
+    #about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box .applicant-box-head strong {
+        font-size: 1rem;
+        line-height: 1rem;
+
+    }
+
+    #about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box .applicant-box-head p {
+        font-size: 12px;
+    }
+
+    #about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box span {
+        font-size: 14px;
+        line-height: 1rem;
+        margin-block: 5px;
+    }
+
+    #about .about-cards .about-contributors .contributors .contributors-body-box .applicant-box a {
+        font-size: 10px;
+    }
+
+    /* TODO: RESPONSIVE ABOUT-CONTRIBUTORS END  */
+    /* TODO: RESPONSIVE ABOUT-CARDS END */
+
+
+    /* TODO: RESPONSIVE HELPUS START */
+    #helpus .helpus-title {
+        text-align: center;
+        width: 100%;
+    }
+
+    #helpus .helpus-title strong {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    #helpus .helpus-title p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #helpus .helpus-cards {
+        width: 100%;
+    }
+
+    #helpus .helpus-cards .helpus-card {
+        width: 100%;
+    }
+
+
+    #helpus .helpus-cards .helpus-card p {
+        font-size: 14px;
+    }
+
+    #helpus .helpus-cards .helpus-card .helpus-history a {
+        font-size: 14px;
+    }
+
+    #helpus .helpus-cards .helpus-card .helpus-history i {
+        font-size: 14px;
+    }
+
+
+    #helpus .helpus-link {
+        font-size: 16px;
+    }
+
+    /* TODO: RESPONSIVE HELPUS END */
+
+    /* TODO: RESPONSIVE REQUEST START */
+    #request {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    #request .request-desc {
+        width: 100%;
+    }
+
+    #request .request-desc strong {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #request .request-desc p {
+        font-size: 16px;
+        line-height: 16px;
+        margin-block: 16px 20px;
+    }
+
+    #request .request-desc a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #request img {
+        width: 100%;
+    }
+
+    /* TODO: RESPONSIVE REQUEST END */
+
+    /* TODO: RESPONSIVE FOOTER START */
+    footer {
+        flex-direction: column;
+    }
+
+    footer .logo {
+        font-size: 16px;
+        font-weight: 700;
+        margin-block: 15px;
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-block: 15px;
+    }
+
+    footer ul li a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /* TODO: RESPONSIVE FOOTER END */
+}
